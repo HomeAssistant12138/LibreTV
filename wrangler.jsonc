@@ -1,9 +1,5 @@
 {
   "name": "libretv-worker",
   "compatibility_date": "2025-11-27",
-  "main": "worker.js",
-  "assets": {
-    "directory": "./",
-    "exclude": ["node_modules/**", "wrangler.jsonc", ".git/**"]
-  }
+  "main": "src/index.js"  // 改用开源项目默认入口（大部分 LibreTV 分支用这个）
 }

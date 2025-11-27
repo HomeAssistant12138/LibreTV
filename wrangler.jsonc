@@ -1,0 +1,9 @@
+{
+  "name": "libretv-worker",
+  "compatibility_date": "2025-11-27",
+  "main": "worker.js",
+  "assets": {
+    "directory": "./",
+    "exclude": ["node_modules/**", "wrangler.jsonc", ".git/**"]
+  }
+}
